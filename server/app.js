@@ -6,7 +6,7 @@ import { notFound } from './middleware/404.js'
 import { createError } from './middleware/error.js'
 const app = express()
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 5000
 
 dotevn.config()
 
